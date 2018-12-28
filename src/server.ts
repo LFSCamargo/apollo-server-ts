@@ -29,7 +29,7 @@ mongoose.connect(MONGO, {}, err => {
 	console.log(`Connected to mongodb at: ${MONGO}`);
 
 	server.listen(PORT, () => {
-		console.log(`🚀 Apollo server ready on https://localhost:${PORT}/graphql`);
+		console.log(`🚀 Apollo server ready on http://localhost:${PORT}/graphql`);
 		console.log(`⚡️ Playground exposed on /graphql`);
 	});
 })
