@@ -20,7 +20,7 @@
   "author": "LFSCamargo",
   "license": "MIT",
   "dependencies": {
-    "apollo-server": "^2.2.2",
+    "apollo-server": "^2.14.2",
     "bcryptjs": "^2.4.3",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.10.0",
